@@ -50,7 +50,7 @@ AAGS
 
 ## Product
 
-SmartSole
+Lets Green IT
 
 ## Members
 
