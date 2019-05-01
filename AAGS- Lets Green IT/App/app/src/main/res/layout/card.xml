@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:id="@+id/main_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="368dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="13dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/info_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_thermometer"
+                app:srcCompat="@drawable/ic_thermometer" />
+
+            <TextView
+                android:id="@+id/stats_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/info_image"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Stats"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/ll"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="26dp"
+            android:background="@color/white"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_chart"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="7dp"
+            android:text="Max" />
+
+        <TextView
+            android:id="@+id/cur"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_chart"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/max"
+            android:gravity="center_horizontal"
+            android:text="Current" />
+
+        <TextView
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_chart"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="27dp"
+            android:text="Min" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/ic_es_humidity" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/ic_es_humidity" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

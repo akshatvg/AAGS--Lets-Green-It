@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A5C1AA</color>
+    <color name="colorPrimaryDark">#A5C1AA</color>
+    <color name="colorAccent">#A5C1AA</color>
+    <color name="white">#00ffffff</color>
+    <color name="svg_color">#939393</color>
+    <color name="red">#FF0000</color>
+</resources>

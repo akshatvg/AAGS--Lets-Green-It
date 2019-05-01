@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <TextView
+        android:id="@+id/danger_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="serif"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/alert_text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <android.support.design.widget.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation_image"
+        android:layout_width="76dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:background="#FFFFFF"
+        android:onClick="navigate"
+        android:src="@drawable/navigation"
+        app:backgroundTint="#FFFFFF"
+        app:elevation="5dp"
+        app:fabCustomSize="70dp"
+        app:maxImageSize="45dp" />
+
+
+</RelativeLayout>

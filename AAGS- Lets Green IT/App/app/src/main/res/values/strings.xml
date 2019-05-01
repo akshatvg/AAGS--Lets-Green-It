@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Farmis</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="call_now">Call Now</string>
+    <string name="dialog_desc">Call us to get recommendation from our expert specially customized for your farm.</string>
+    <string name="dialog_title">Call the experts!</string>
+    <string name="humidity">Humidity</string>
+    <string name="temp">Temperature</string>
+    <string name="water_level">Level</string>
+    <string name="silo_level">Silo Level</string>
+    <string name="current">Current:</string>
+    <string name="max">Max:</string>
+    <string name="min">Min:</string>
+    <string name="celsius">°C</string>
+    <string name="farm_health">Farm Health</string>
+    <string name="_76">76%</string>
+    <string name="alert_text"><![CDATA[Hey! It looks like sjt side fence is in danger... Hurry up & check!]]></string>
+</resources>

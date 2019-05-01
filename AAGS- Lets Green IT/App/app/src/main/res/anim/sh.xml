@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <rotate android:duration="108"
+        android:fromDegrees="-5.0"
+        android:toDegrees="9.0"
+        android:pivotX="50.0%"
+        android:pivotY="50.0%"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <translate
+        android:duration="108"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:fromXDelta="-2.9999971%"
+        android:toXDelta="2.9999971%" />
+</set>
