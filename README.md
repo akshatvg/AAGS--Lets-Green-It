@@ -2,9 +2,9 @@
 
 # AAGS- Lets Green IT
 
-## A simple yet efficient project to automate and make farming smart.
+## First prize winner at 404 Not Found by CodeChef VIT.
 
-### First prize winner at 404 Not Found by CodeChef VIT.
+### A simple yet efficient project to automate and make farming smart.
 
 ## Introduction
 
