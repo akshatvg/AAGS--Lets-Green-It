@@ -1,4 +1,4 @@
-![Lets Green IT Header](https://github.com/akshatvg/AAGS--Lets-Green-It/blob/master/AAGS-%20Lets%20Green%20IT/Pics/header.png "Lets Green IT Header")
+![Lets Green IT Header](https://github.com/akshatvg/AAGS--Lets-Green-It/blob/master/Pics/header.png "Lets Green IT Header")
 
 # AAGS- Lets Green IT
 
@@ -42,22 +42,3 @@ Some of the features included in our current prototype include:
 6) Humidity & Temperature.
 
 7) Suggestions of Which Crop to Plant and When and in What Quantities. 
-
-
-## Team
-
-AAGS
-
-## Product
-
-Lets Green IT
-
-## Members
-
-1) Akshat Gupta
-
-2) Gauransh Arora
-
-3) Sai Sandeep
-
-4) Arpit Jain
